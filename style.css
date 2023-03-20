@@ -1,0 +1,99 @@
+/*body {
+    background: hsla(263, 100%, 46%, 1);    
+    background: linear-gradient(315deg, hsla(263, 100%, 46%, 1) 0%, hsla(26, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(315deg, hsla(263, 100%, 46%, 1) 0%, hsla(26, 100%, 50%, 1) 100%);    
+    background: -webkit-linear-gradient(315deg, hsla(263, 100%, 46%, 1) 0%, hsla(26, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5A00EB", endColorstr="#FF6F00", GradientType=1 );
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    display: table-cell;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 478px;
+    margin-top: 200px;
+}
+
+h2 {
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    margin-left: 478px;
+    margin-top: 250px;
+}
+*/
+
+body {
+    background: hsla(263, 100%, 46%, 1);
+    background: linear-gradient(315deg, hsla(263, 100%, 46%, 1) 0%, hsla(26, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(315deg, hsla(263, 100%, 46%, 1) 0%, hsla(26, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(315deg, hsla(263, 100%, 46%, 1) 0%, hsla(26, 100%,50% ,1)100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5A00EB", endColorstr="#FF6F00", GradientType=1 );
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.box {
+    padding:20px;
+    border-radius:10px;
+    background:hsla(263,80% ,56% ,.8);
+    background:-moz-linear-gradient(-45deg,hsla(263,80% ,56% ,.8)0% ,
+        hsla(26,80% ,60%,.8)100%);
+        background:-webkit-linear-gradient(-45deg,hsla(263,
+            80%,56%,.8)0%,hsla(
+                26,
+                80%,
+                60%,
+                .8
+            )100%
+        );
+        filter:
+            progid:
+            DXImageTransform.Microsoft.gradient(
+                startColorstr="#7A3DEB",
+                endColorstr="#FF9F40",
+                GradientType=1
+            );
+}
+.footer-box {
+    background-color: rgba(84, 84, 84, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    text-align:center;
+    font-size:3em;
+    background: #A2FF00;
+    background: linear-gradient(to right, #A2FF00 0%, #00FFFF 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+h2 {
+    text-align:center;
+    font-size:2em;
+    color: magenta;
+}
+h3 {
+    font-size: 10px;
+}
